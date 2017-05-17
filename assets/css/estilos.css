@@ -1,5 +1,5 @@
 
-.inicio {
+#inicio {
 	min-height: 500px;
 }
 .iniciop{
@@ -97,8 +97,8 @@ a.boton {
 }
 .carousel-inner {
     clear: both;
-    margin: 20px 0;
     overflow: visible;
+    margin: 20px 0;
     padding: 1px;
     position: relative;
     width: 100%;
