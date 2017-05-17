@@ -1,0 +1,109 @@
+
+.inicio {
+	min-height: 500px;
+}
+.iniciop{
+	background-color: #36537C;
+	height: 500px;
+	border-radius: 20px;
+}
+.titulo{
+	text-align: center;
+	color: white;
+	margin-bottom: 2em;
+}
+.contenido{
+	text-align: justify;
+	color: white;
+	font-size: 19px;
+	padding: 1em;
+}
+.conIngreso{
+	display: none;
+}
+.inicioRegistro{
+	margin-top: 3em;
+}
+a.btn.btn-info.boton.waves-effect.waves-light.inicia {
+	width: 300px;
+}
+a.olvido {
+	margin-top: 1em;
+}
+.btn-info {
+	background: #00C851;
+}
+.btn-info:hover, .btn-info:focus {
+	background-color: #00C851 !important;
+}
+.registro{
+	text-align: right;
+	cursor: default;
+}
+.oculto{
+	display: none;
+}
+.visible{
+	display: block;
+}
+.info {
+	margin: 3em 1em;
+}
+h4 {
+	margin: 1em 0;
+}
+.fa-15x {
+	font-size: 15em;
+}
+a.boton {
+	width: 160px;
+}
+.enlaces {
+	margin: 5em 5em;
+}
+.full-screen {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.glyphicon-chevron-right:before {
+	content: "\e080";
+	color: #1c3d6c;
+}
+.glyphicon-chevron-left:before {
+	content: "\e079";
+	color: #1c3d6c;
+}
+.carousel-control {
+	opacity: 0;
+	width: 5%;
+}
+.item.active.full-screen {
+	height: auto !important;
+	min-height: 300px !important;
+	margin: 0 5em;
+}
+.carousel-control:hover, .carousel-control:focus {
+    opacity: 1;
+}
+.carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%);
+}
+.carousel-control.right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%);
+}
+.carousel-inner > .item {
+    top: 45px;
+}
+.carousel-inner {
+    clear: both;
+    margin: 20px 0;
+    overflow: visible;
+    padding: 1px;
+    position: relative;
+    width: 100%;
+}
+p {
+    font-size: 16px;
+    cursor: default;
+}
