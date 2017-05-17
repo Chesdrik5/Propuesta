@@ -13,6 +13,7 @@ function visible_registro_recupera(){
 function visible_con_sesion(){
 	$('#principal').hide();
 	$('#conIngreso').show();
+  $('#infoGeneral').show();
 	$('#perfil').show();
 }
 var $item = $('.carousel .item'); 

@@ -61,48 +61,6 @@ a.boton {
 .enlaces {
 	margin: 5em 5em;
 }
-.full-screen {
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.glyphicon-chevron-right:before {
-	content: "\e080";
-	color: #1c3d6c;
-}
-.glyphicon-chevron-left:before {
-	content: "\e079";
-	color: #1c3d6c;
-}
-.carousel-control {
-	opacity: 0;
-	width: 5%;
-}
-.item.active.full-screen {
-	height: auto !important;
-	min-height: 300px !important;
-	margin: 0 5em;
-}
-.carousel-control:hover, .carousel-control:focus {
-    opacity: 1;
-}
-.carousel-control.left {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%);
-}
-.carousel-control.right {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .0) 100%);
-}
-.carousel-inner > .item {
-    top: 45px;
-}
-.carousel-inner {
-    clear: both;
-    overflow: visible;
-    margin: 20px 0;
-    padding: 1px;
-    position: relative;
-    width: 100%;
-}
 p {
     font-size: 16px;
     cursor: default;
