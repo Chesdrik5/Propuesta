@@ -1,3 +1,33 @@
+$("#aDatos").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Datos").offset().top
+    }, 800);
+});
+$("#aNacionalidad").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Nacionalidad").offset().top
+    }, 800);
+});
+$("#aCorreos").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Correos").offset().top
+    }, 800);
+});
+$("#aTelefonos").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Telefonos").offset().top
+    }, 800);
+});
+$("#aContactos").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Contactos").offset().top
+    }, 800);
+});
+$("#aDirecciones").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Direcciones").offset().top
+    }, 800);
+});
 function visible_recupera(){
 	$('#principal').hide();
 	$('#recuperar').show();
